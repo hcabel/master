@@ -2,7 +2,7 @@
   "name": "std-format-placeholder-highlighter",
   "displayName": "std::format placeholder highlighter",
   "description": "Sick to see you '%' highlighted but not you '{}' ?! I fix that for you!",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -13,7 +13,7 @@
     "grammars": [{
       "scopeName": "source.cpp",
       "path": "./syntaxes/extra.tmLanguage.json",
-      "injectTo": ["cpp.tmLanguage.json"]
+      "injectTo": ["source.cpp"]
     }]
   },
   "publisher": "HugoCabel",
@@ -28,15 +28,15 @@
   },
   "license": "MIT",
   "keywords": [
-      "C++",
-      "cpp",
-      "std::format",
-      "std",
-      "format",
-      "highlighting",
-      "textmate",
-      "syntax",
-      "color"
+    "C++",
+    "cpp",
+    "std::format",
+    "std",
+    "format",
+    "highlighting",
+    "textmate",
+    "syntax",
+    "color"
   ],
   "extensionDependencies": [
     "jeff-hykin.better-cpp-syntax"
