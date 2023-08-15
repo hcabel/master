@@ -1,0 +1,32 @@
+{
+  "name": "std-format-tokenizer",
+  "displayName": "std::format Tokenizer",
+  "description": "So I was just sick of not having syntax highlighting for std::format strings in VSCode, so I made this. It will highlighting your {} token the same way as your % token.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cpp",
+      "extensions": [".cpp", ".h", ".hpp"]
+    }],
+    "grammars": [{
+      "language": "cpp",
+      "scopeName": "source.cpp",
+      "path": "./syntaxes/cpp.tmLanguage.json"
+    }]
+  },
+  "author": {
+    "name": "hcabel",
+    "email": "coding+stdformat@hugocabel.com",
+    "url": "https://hugocabel.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hcabel/std-format-tokenizer"
+  }
+}
