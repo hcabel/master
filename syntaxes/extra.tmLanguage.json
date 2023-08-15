@@ -16,7 +16,7 @@
 	"Name": "C++",
 	"patterns": [
 		{
-			"include": "source.cpp"
+			"include": "source.c"
 		}
 	]
 }
