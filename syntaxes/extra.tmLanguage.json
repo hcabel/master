@@ -1,0 +1,22 @@
+{
+	"scopeName": "source.cpp",
+	"injections": {
+		"source.cpp": {
+			"patterns": [
+				{
+					"name": "constant.other.placeholder",
+					"match": "\\{([^\\{\\}]*:[^\\{\\}]*)?\\}"
+				}
+			]
+		}
+	},
+	"fileTypes": [
+		"cpp"
+	],
+	"Name": "C++",
+	"patterns": [
+		{
+			"include": "source.cpp"
+		}
+	]
+}

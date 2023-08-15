@@ -1,8 +1,8 @@
 {
-  "name": "std-format-tokenizer",
-  "displayName": "std::format Tokenizer",
-  "description": "So I was just sick of not having syntax highlighting for std::format strings in VSCode, so I made this. It will highlighting your {} token the same way as your % token.",
-  "version": "0.0.1",
+  "name": "std-format-placeholder-highlighter",
+  "displayName": "std::format placeholder highlighter",
+  "description": "Sick to see you '%' highlighted but not you '{}' ?! I fix that for you!",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -10,23 +10,36 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "cpp",
-      "extensions": [".cpp", ".h", ".hpp"]
-    }],
     "grammars": [{
-      "language": "cpp",
       "scopeName": "source.cpp",
-      "path": "./syntaxes/cpp.tmLanguage.json"
+      "path": "./syntaxes/extra.tmLanguage.json",
+      "injectTo": ["cpp.tmLanguage.json"]
     }]
   },
+  "publisher": "HugoCabel",
   "author": {
-    "name": "hcabel",
+    "name": "Hugo Cabel",
     "email": "coding+stdformat@hugocabel.com",
     "url": "https://hugocabel.com"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/hcabel/std-format-tokenizer"
-  }
+  },
+  "license": "MIT",
+  "keywords": [
+      "C++",
+      "cpp",
+      "std::format",
+      "std",
+      "format",
+      "highlighting",
+      "textmate",
+      "syntax",
+      "color"
+  ],
+  "extensionDependencies": [
+    "jeff-hykin.better-cpp-syntax"
+  ],
+  "icon": "icon.png"
 }
