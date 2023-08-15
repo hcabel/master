@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hcabel/std-format-tokenizer"
+    "url": "https://github.com/hcabel/std-format-placeholder-highlighter"
   },
   "license": "MIT",
   "keywords": [

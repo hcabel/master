@@ -1,5 +1,5 @@
 <p align="center">
-	<image src="./icon.png" width="128" height="128" alt="Extension icon"/>
+	<image src="https://github.com/hcabe/std-format-placeholder-highlighter/icon.png" width="128" height="128" alt="Extension icon"/>
 </p>
 
 # `std::format` placeholder highlighter
