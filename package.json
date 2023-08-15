@@ -2,7 +2,7 @@
   "name": "std-format-placeholder-highlighter",
   "displayName": "std::format placeholder highlighter",
   "description": "Sick to see you '%' highlighted but not you '{}' ?! I fix that for you!",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
     "vscode": "^1.81.0"
   },
