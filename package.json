@@ -2,12 +2,13 @@
   "name": "std-format-placeholder-highlighter",
   "displayName": "std::format placeholder highlighter",
   "description": "Sick to see you '%' highlighted but not you '{}' ?! I fix that for you!",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "engines": {
     "vscode": "^1.81.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Themes"
   ],
   "contributes": {
     "grammars": [{
@@ -41,5 +42,8 @@
   "extensionDependencies": [
     "jeff-hykin.better-cpp-syntax"
   ],
-  "icon": "icon.png"
+  "icon": "icon.png",
+  "activationEvents": [
+    "onLanguage:cpp"
+  ]
 }
