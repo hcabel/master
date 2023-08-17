@@ -1,0 +1,23 @@
+{
+    "fileTypes": [
+        "cc",
+        "cpp",
+        "cp",
+        "cxx",
+        "c++",
+        "C",
+        "h",
+        "hh",
+        "hpp",
+        "h++"
+    ],
+    "injectionSelector": "L:source.cpp",
+    "patterns": [
+        {
+            "match": "\\{[^\\}]*\\}",
+            "name": "constant.other.placeholder.std.format"
+        }
+    ],
+    "repository": {},
+    "scopeName": "string.cpp.std.format"
+}
