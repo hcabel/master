@@ -11,7 +11,7 @@
         "hpp",
         "h++"
     ],
-    "injectionSelector": "L:source.cpp",
+    "injectionSelector": "L:string.quoted.double.cpp",
     "patterns": [
         {
             "match": "\\{[^\\}]*\\}",
