@@ -14,7 +14,7 @@
     "injectionSelector": "L:string.quoted.double.cpp",
     "patterns": [
         {
-            "match": "\\{[^\\}]*\\}",
+            "match": "\\{[^\\{\\}]*\\}",
             "name": "constant.other.placeholder.std.format"
         }
     ],
