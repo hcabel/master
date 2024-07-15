@@ -4,8 +4,8 @@
 
 # `std::format` placeholder highlighter
 
-It's a small extension that highlights the `std::format` placeholder in strings.<br/>
-Your probably use to see `%s`/`%d`  highlight in strings, this extension does the same for `std::format` placeholders. (`{}`/`{:s}`/`{:d}`...)
+It's a small extension that highlight `std::format` placeholders in strings.<br/>
+Your probably used to see `%s`/`%d`  highlighted in strings, this extension does the same for `std::format` placeholders. (`{}`/`{:s}`/`{:d}`...)
 
-### *This extension required better cpp syntax too work*
+### *This extension required better cpp syntax to work*
 
